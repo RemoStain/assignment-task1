@@ -25,7 +25,7 @@ export default function App() {
     } else {
         return (
             <>
-                <StatusBar animated translucent style="light" />
+                <StatusBar animated translucent style="dark" />
                 <ActionSheetProvider>
                     <AppStack />
                 </ActionSheetProvider>
